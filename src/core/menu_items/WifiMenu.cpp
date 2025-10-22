@@ -8,11 +8,9 @@
 #include "modules/ethernet/ARPScanner.h"
 #include "modules/wifi/ap_info.h"
 #include "modules/wifi/clients.h"
-#include "modules/wifi/evil_portal.h"
 #include "modules/wifi/scan_hosts.h"
 #include "modules/wifi/sniffer.h"
-#include "modules/wifi/wifi_atks.h"
-#include "modules/wifi/karma_attack.h"
+#include "modules/wifi/wifi_defense.h"
 #include "core/wifi/wifi_mac.h"
 
 #ifndef LITE_VERSION

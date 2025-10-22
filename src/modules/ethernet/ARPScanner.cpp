@@ -15,7 +15,8 @@
 #include "core/wifi/wifi_common.h"
 #include "esp_netif_net_stack.h"
 #include "modules/wifi/clients.h"
-#include "modules/wifi/deauther.h"
+// Removed deauther.h - not needed for ARP scanning
+// #include "modules/wifi/deauther.h"
 #include "modules/wifi/scan_hosts.h"
 #include <globals.h>
 #include <sstream>
